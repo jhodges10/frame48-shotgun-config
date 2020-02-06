@@ -16,6 +16,7 @@ from tank import Hook
 
 
 class PickEnvironment(Hook):
+
     def execute(self, context, **kwargs):
         """
         The default implementation assumes there are three environments, called shot, asset

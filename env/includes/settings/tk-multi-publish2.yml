@@ -226,7 +226,7 @@ settings.tk-multi-publish2.nuke.asset_step:
       Work Template: nuke_asset_work
   publish_plugins:
   - name: Publish to Shotgun
-    hook: "{self}/publish_file.py"
+    hook: "{config}/publish_file.py"
     settings: {}
   - name: Upload for review
     hook: "{self}/upload_version.py"

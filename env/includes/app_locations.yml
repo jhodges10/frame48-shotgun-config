@@ -161,9 +161,10 @@ apps.tk-houdini-mantranode.location:
 
 # quickreview
 apps.tk-nuke-quickreview.location:
-  type: app_store
-  name: tk-nuke-quickreview
-  version: v1.0.3
+  type: github_release
+  organization: jhodges10
+  repository: tk-nuke-quickreview
+  version: v1.1.5
 
 # writenode
 apps.tk-nuke-writenode.location:
