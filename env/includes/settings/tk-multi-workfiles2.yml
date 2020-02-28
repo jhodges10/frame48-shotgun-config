@@ -105,7 +105,7 @@ settings.tk-multi-workfiles2.3dsmaxplus.asset_step: &settings_tk-multi-workfiles
       hierarchy: [step]
   location: "@apps.tk-multi-workfiles2.location"
 
-  settings.tk-multi-workfiles2.3dsmaxplus.shot_step: &settings_tk-multi-workfiles2_3dsmaxplus_shot_step
+settings.tk-multi-workfiles2.3dsmaxplus.shot_step: &settings_tk-multi-workfiles2_3dsmaxplus_shot_step
   template_publish: max_shot_publish
   template_publish_area: shot_publish_area_max
   template_work: max_shot_work
