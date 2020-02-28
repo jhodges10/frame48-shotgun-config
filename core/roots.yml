@@ -48,9 +48,10 @@ primary:
 
     # these paths will be populated by the associated local storage in Shotgun
     # at setup time.
-    mac_path:
-    linux_path:
-    windows_path:
+    linux_path: null
+    mac_path: null
+    shotgun_storage_id: 70
+    windows_path: N:\2_post
 
     # indicates that this is the default storage root
     default: true
